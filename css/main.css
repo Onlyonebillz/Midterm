@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: normal normal normal 16px arial,sans-serif; 
+}
+
+h1{
+    color: blue;
+    font-size: 30px;
+}
+h2{
+    color: blueviolet;
+    font-size: 20px;
+}
+main{
+    height: 70vh;
+}
+#dogs{
+    border: 5px solid black;
+    width: 90%;
+    height: 80%;
+}
+.structural{
+    margin: 10px;
+    padding: 10px;
+}
+figure{
+    background-color: blueviolet;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+.figure1{
+    float: left;
+}
+.figure2{
+    float: right;
+}
+section{
+    clear: both;
+}
+figcaption{
+    font-weight: 100;
+    font-size: 20px;
+    padding: 5px;
+}
+ul > li > a { 
+    color: #e167f7; 
+}
+section a:hover {
+    color: black 
+}
+ul li {
+    list-style:disc;
+    line-height: 1.5;
+}
+header{
+    background-color: blueviolet;
+}
+footer{
+    background-color: blueviolet;
+}
